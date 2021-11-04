@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Map And List</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_closed">Close Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment"
+    android:id="@+id/fragmentContainerHere">
+<!--    <EditText
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/black"
+        android:title="Search"
+        android:hint="Search here"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_width="413dp"
+        android:layout_height="673dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="48dp" />
+</FrameLayout>
